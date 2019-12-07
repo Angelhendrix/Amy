@@ -107,7 +107,7 @@ header .burger_icon:hover {
 }
 
 header .burger_icon.active {
-  background: #359663;
+  background: #a22c92;
   color: #ffffff;
 }
 
@@ -118,7 +118,8 @@ header nav {
 
 header nav li {
   float: left;
-  margin-left: 40px;
+  margin-left: 80px;
+  text-align: right;
 }
 
 header nav li:first-child {
@@ -126,9 +127,10 @@ header nav li:first-child {
 }
 
 header nav li a {
-  color: #00a4db;
-  font-family: "open_regular", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  color: #fa4286;
+/*  font-family: "open_regular", Helvetica, Arial, fantasy;
+*/  font-family: fantasy;
+  font-size: 16pt;
   transition: all .2s linear;
   -o-transition: all .2s linear;
   -moz-transition: all .2s linear;
@@ -138,7 +140,7 @@ header nav li a {
 header nav li a:hover,
 header nav li a:focus {
   text-decoration: none;
-  color: red!important;
+  color: orange!important;
 }
 
 header .social {
@@ -163,7 +165,7 @@ header .social li:first-child {
   position: relative;
   width: 100%;
   height: 690px;
-  background: url('../pics/Luxury3.jpg') no-repeat fixed center center;
+  background: url('../picsAmy/bigNail1.jpg') no-repeat fixed center center;
   background-size: cover;
 }
 
@@ -181,7 +183,7 @@ header .social li:first-child {
 .hero .caption h1 {
   color: black;
   font-family: "open_bold", Helvetica, Arial, sans-serif;
-  font-size: 54px;
+  font-size: 40px;
   font-weight: bold;
   word-break: break-word;
 }
@@ -189,7 +191,7 @@ header .social li:first-child {
 .hero .caption p {
   color: black;
   font-family: "open_regular", Helvetica, Arial, sans-serif;
-  font-size: 26px;
+  font-size: 16px;
   line-height: 30px;
   margin: 15px 0 35px 0;
 }
@@ -488,6 +490,7 @@ a.app_link {
 
 .testimonials {
   padding: 100px 0;
+  background-image: url('https://img4.goodfon.com/wallpaper/nbig/6/13/spa-orchid-pink-flowers-orkhideia-kamni.jpg');
 }
 
 .testimonials .testimonials_list {
@@ -1110,4 +1113,92 @@ div.sectionTwo {}
   margin-right: auto;
   width: 15%;
 }
+
+.w3{
+  text-align: center;
+  float: center
+  border:solid;
+}
+.w3 p{
+  padding: 50px;
+  font-size: 22px;
+   vertical-align: middle;
+  text-align: center;
+  font-family: 'Arial', cursive;
+}
+
+html{
+  background-color:#ff6f69;
+  background: radial-gradient(#ff6f69, #ff8b87);
+
+/*  background-image:url('https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fcdn-image.travelandleisure.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F1600x1000%2Fpublic%2F1479854258%2Fkahaluu-bay-kona-big-island-hawaii-WRLDSNST1122.jpg%3Fitok%3DSFMX3uUf&w=800&q=85');
+  background-repeat: no-repeat;
+    background-size: 100%;
+  background-position:50% 50%;*/
+}
+
+.border {
+    padding: 5px;
+    background: linear-gradient(110deg, #fce2d4 33%, rgba(0, 0, 0, 0) 33%), linear-gradient(110deg, #faf4f4 34%, #c479bb 34%);
+    background-size: 400% 400%;
+    height: 200px;
+    background-position: 25% 50%;
+    -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 5s ease infinite;
+
+/*.border{
+  padding: 5px;
+    background: linear-gradient(110deg, #ffeead 33%, rgba(0, 0, 0, 0) 33%), linear-gradient(110deg, #C5E7D7 34%, #88d8b0 34%);
+  background-size: 400% 400%;
+  height: 200px;
+  background-position: 25% 50%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 5s ease infinite;*/
+}
+.inner-cutout{
+  padding: 40px 0;
+  display: block;
+  background-color:#ff6f69;/*#ff6f69*/
+    
+  margin: 2%;
+  padding-bottom: 40px;
+  height: 150px;
+  background: radial-gradient(#ff6f69, #ff8b87);
+   background-size: 300%;
+  background-position:50% 50%;
+
+}
+.knockout {
+  
+  vertical-align: middle;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size:35pt;
+  color: blue;
+  color: #fff;
+   background: linear-gradient(110deg, #fce2d4 33%, rgba(0, 0, 0, 0) 33%), linear-gradient(110deg, #faf4f4 34%, #c479bb 34%);
+  background-size: 400%;
+   -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.knockout{
+    animation: Gradient 5s ease infinite;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 5s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 30% 50%
+  }
+  50% {
+    background-position: 25% 50%
+  }
+  100% {
+    background-position: 30% 50%
+  }
+  
+}
+
+
 

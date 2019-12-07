@@ -4,7 +4,8 @@ $(document).ready(function () {
 
   let services = ['Concrete & Landscaping', 'Baths & Kitchens', 'Fire Pit Restoration', 'Windows & Doors Installations', 'Carpentry', 'Electrical & Plumbing', 'Flooring - Vinyl, Tile, Slate, Ceramic & Travertine', 'Crown Molding', 'etc'].sort();
 
-  $('#listOfCities').append(services.map(c => $('<li>').text(c + ',')));
+  // $('#listOfCities').append(services.map(c => $('<li>').text(c + ',')));
+
 
 
   // links to the carousel in the sevices HTML page
